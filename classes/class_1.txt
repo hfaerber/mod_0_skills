@@ -1,0 +1,17 @@
+Class: StudentJournal
+
+
+Attributes:
+Creator (string)
+JournalName (string)
+EntryCount (integer)
+WordCount (integer)
+TotalPages (float)
+EntrySubject (hash)
+Doodle (boolean)
+
+Methods:
+ChangeName (modifies JournalName)
+AddEntry (increases EntryCount, increases WordCount, increases TotalPages, modifies EntrySubject)
+DrawDoodle (modifies Doodle boolean)
+TearOutPage (decreases Entry,Count, decreases WordCount, decreases TotalPages, modifies EntrySubject, may modify doodle boolean)
