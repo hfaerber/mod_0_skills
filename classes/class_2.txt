@@ -1,0 +1,16 @@
+ClassroomPlant
+
+Attributes:
+OwnerName (string)
+ClassroomLocation (string)
+Color (integer)
+LeafCount (integer)
+Flowering (boolean)
+DisplayDate (datetime)
+SoilHydrationAmount (float)
+
+Methods:
+GiveAway (modifies OwnerName)
+Prune (modifies LeafCount)
+CalculateDaysInClassroom (subtract DisplayDate from CurrentDate)
+WaterPlant (modifies SoilHydrationAmount)
