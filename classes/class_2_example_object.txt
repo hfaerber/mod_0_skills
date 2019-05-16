@@ -1,0 +1,16 @@
+Object: Marbled Pathos Plant
+
+Attributes:
+OwnerName: "Miss Rachel"
+ClassroomLocation: "Speech Therapy Room"
+Color: Green
+LeafCount: 25
+Flowering: False
+DisplayDate: 5/06/2019
+SoilHydrationAmount: 20%
+
+Methods:
+GiveAway: changes OwnerName to "Miss Erica"
+Prune: modifies LeafCount to 18
+CalculateDaysInClassroom: 5/16/2019 minus 5/06/2019 = 10 days
+WaterPlant: modifies SoilHydrationAmount to 30%
