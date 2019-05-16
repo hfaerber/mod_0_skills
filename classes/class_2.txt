@@ -1,4 +1,4 @@
-ClassroomPlant
+Class: ClassroomPlant
 
 Attributes:
 OwnerName (string)
