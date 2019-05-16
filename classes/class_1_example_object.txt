@@ -1,0 +1,16 @@
+Object: R Martin Journal
+
+Attributes:
+Creator: "Rebecca Martin"
+JournalName:"Becky's Journal"
+EntryCount: 31
+WordCount: 1240
+TotalPages: 38.75
+EntrySubject: { 1:"boys", 2:"basketball", 3:"best friend fight", 4:"boys" }
+Doodle: false
+
+Methods:
+ChangeName: "Rebecca's Journal"
+AddEntry: EntryCount > 32, WordCount > 1280, TotalPages > 39.25, EntrySubject adds 32:"weekend plans" to the hash array
+DrawDoodle: true
+TearOutPage: decreases EntryCount to 29, decreases WordCount to 1189, decreases TotalPages to 37.75, removes items from EntrySubject hash array
