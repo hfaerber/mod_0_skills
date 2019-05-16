@@ -14,4 +14,4 @@ Methods:
 ChangeName (modifies JournalName)
 AddEntry (increases EntryCount, increases WordCount, increases TotalPages, modifies EntrySubject)
 DrawDoodle (modifies Doodle boolean)
-TearOutPage (decreases Entry,Count, decreases WordCount, decreases TotalPages, modifies EntrySubject, may modify doodle boolean)
+TearOutPage (decreases EntryCount, decreases WordCount, decreases TotalPages, modifies EntrySubject, may modify doodle boolean)
